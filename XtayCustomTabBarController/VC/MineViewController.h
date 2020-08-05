@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  MineViewController.h
 //  XtayCustomTabBarController
 //
 //  Created by admin on 2020/8/4.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface MineViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  XtayToolView.h
 //  XtayCustomTabBarController
 //
 //  Created by admin on 2020/8/4.
@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-/// 主window
-@property (nonatomic, strong) UIWindow *window;
+@interface XtayToolView : UIView
+
++ (void)xtayGoToTabBarController;
 
 @end
 
+NS_ASSUME_NONNULL_END

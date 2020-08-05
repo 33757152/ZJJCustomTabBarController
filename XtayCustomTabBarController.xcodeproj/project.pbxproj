@@ -8,20 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		848B54D224D964D200AC3961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B54D124D964D200AC3961 /* AppDelegate.m */; };
-		848B54D524D964D200AC3961 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B54D424D964D200AC3961 /* SceneDelegate.m */; };
 		848B54D824D964D200AC3961 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B54D724D964D200AC3961 /* ViewController.m */; };
 		848B54DB24D964D200AC3961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848B54D924D964D200AC3961 /* Main.storyboard */; };
 		848B54DD24D964D500AC3961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848B54DC24D964D500AC3961 /* Assets.xcassets */; };
 		848B54E024D964D500AC3961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848B54DE24D964D500AC3961 /* LaunchScreen.storyboard */; };
 		848B54E324D964D500AC3961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B54E224D964D500AC3961 /* main.m */; };
+		848B54ED24D9654A00AC3961 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B54EC24D9654A00AC3961 /* HomeViewController.m */; };
+		848B54F024D9655000AC3961 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B54EF24D9655000AC3961 /* MineViewController.m */; };
+		848B54F324D9655700AC3961 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B54F224D9655700AC3961 /* AddViewController.m */; };
+		848B54F624D9662000AC3961 /* XtayTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B54F524D9662000AC3961 /* XtayTabBarController.m */; };
+		848B54F924D9663100AC3961 /* XtayTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B54F824D9663100AC3961 /* XtayTabBar.m */; };
+		848B54FC24D9664A00AC3961 /* XtayToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B54FB24D9664A00AC3961 /* XtayToolView.m */; };
+		84B8D4ED24DA5A3300E3195D /* add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B8D4EB24DA5A3300E3195D /* add@3x.png */; };
+		84B8D4EE24DA5A3300E3195D /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B8D4EC24DA5A3300E3195D /* add@2x.png */; };
+		84B8D4F124DA5B9800E3195D /* tianjia@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B8D4EF24DA5B9800E3195D /* tianjia@3x.png */; };
+		84B8D4F224DA5B9800E3195D /* tianjia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B8D4F024DA5B9800E3195D /* tianjia@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		848B54CD24D964D200AC3961 /* XtayCustomTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XtayCustomTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848B54D024D964D200AC3961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		848B54D124D964D200AC3961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		848B54D324D964D200AC3961 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		848B54D424D964D200AC3961 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		848B54D624D964D200AC3961 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		848B54D724D964D200AC3961 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		848B54DA24D964D200AC3961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +36,23 @@
 		848B54DF24D964D500AC3961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848B54E124D964D500AC3961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848B54E224D964D500AC3961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		848B54EB24D9654A00AC3961 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		848B54EC24D9654A00AC3961 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		848B54EE24D9655000AC3961 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		848B54EF24D9655000AC3961 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		848B54F124D9655700AC3961 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		848B54F224D9655700AC3961 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		848B54F424D9662000AC3961 /* XtayTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XtayTabBarController.h; sourceTree = "<group>"; };
+		848B54F524D9662000AC3961 /* XtayTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XtayTabBarController.m; sourceTree = "<group>"; };
+		848B54F724D9663100AC3961 /* XtayTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XtayTabBar.h; sourceTree = "<group>"; };
+		848B54F824D9663100AC3961 /* XtayTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XtayTabBar.m; sourceTree = "<group>"; };
+		848B54FA24D9664A00AC3961 /* XtayToolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XtayToolView.h; sourceTree = "<group>"; };
+		848B54FB24D9664A00AC3961 /* XtayToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XtayToolView.m; sourceTree = "<group>"; };
+		848B54FE24D9667000AC3961 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		84B8D4EB24DA5A3300E3195D /* add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@3x.png"; sourceTree = "<group>"; };
+		84B8D4EC24DA5A3300E3195D /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@2x.png"; sourceTree = "<group>"; };
+		84B8D4EF24DA5B9800E3195D /* tianjia@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tianjia@3x.png"; sourceTree = "<group>"; };
+		84B8D4F024DA5B9800E3195D /* tianjia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tianjia@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +85,58 @@
 		848B54CF24D964D200AC3961 /* XtayCustomTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				848B54FD24D9665000AC3961 /* V */,
+				848B54EA24D9653100AC3961 /* VC */,
+				848B54E924D9652600AC3961 /* customTabBar */,
 				848B54D024D964D200AC3961 /* AppDelegate.h */,
 				848B54D124D964D200AC3961 /* AppDelegate.m */,
-				848B54D324D964D200AC3961 /* SceneDelegate.h */,
-				848B54D424D964D200AC3961 /* SceneDelegate.m */,
 				848B54D624D964D200AC3961 /* ViewController.h */,
 				848B54D724D964D200AC3961 /* ViewController.m */,
 				848B54D924D964D200AC3961 /* Main.storyboard */,
 				848B54DC24D964D500AC3961 /* Assets.xcassets */,
+				84B8D4EC24DA5A3300E3195D /* add@2x.png */,
+				84B8D4EB24DA5A3300E3195D /* add@3x.png */,
+				84B8D4F024DA5B9800E3195D /* tianjia@2x.png */,
+				84B8D4EF24DA5B9800E3195D /* tianjia@3x.png */,
 				848B54DE24D964D500AC3961 /* LaunchScreen.storyboard */,
 				848B54E124D964D500AC3961 /* Info.plist */,
 				848B54E224D964D500AC3961 /* main.m */,
+				848B54FE24D9667000AC3961 /* PrefixHeader.pch */,
 			);
 			path = XtayCustomTabBarController;
+			sourceTree = "<group>";
+		};
+		848B54E924D9652600AC3961 /* customTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				848B54F424D9662000AC3961 /* XtayTabBarController.h */,
+				848B54F524D9662000AC3961 /* XtayTabBarController.m */,
+				848B54F724D9663100AC3961 /* XtayTabBar.h */,
+				848B54F824D9663100AC3961 /* XtayTabBar.m */,
+			);
+			path = customTabBar;
+			sourceTree = "<group>";
+		};
+		848B54EA24D9653100AC3961 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				848B54EB24D9654A00AC3961 /* HomeViewController.h */,
+				848B54EC24D9654A00AC3961 /* HomeViewController.m */,
+				848B54EE24D9655000AC3961 /* MineViewController.h */,
+				848B54EF24D9655000AC3961 /* MineViewController.m */,
+				848B54F124D9655700AC3961 /* AddViewController.h */,
+				848B54F224D9655700AC3961 /* AddViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		848B54FD24D9665000AC3961 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				848B54FA24D9664A00AC3961 /* XtayToolView.h */,
+				848B54FB24D9664A00AC3961 /* XtayToolView.m */,
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +197,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				848B54E024D964D500AC3961 /* LaunchScreen.storyboard in Resources */,
+				84B8D4ED24DA5A3300E3195D /* add@3x.png in Resources */,
+				84B8D4F124DA5B9800E3195D /* tianjia@3x.png in Resources */,
+				84B8D4F224DA5B9800E3195D /* tianjia@2x.png in Resources */,
+				84B8D4EE24DA5A3300E3195D /* add@2x.png in Resources */,
 				848B54DD24D964D500AC3961 /* Assets.xcassets in Resources */,
 				848B54DB24D964D200AC3961 /* Main.storyboard in Resources */,
 			);
@@ -147,9 +214,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				848B54D824D964D200AC3961 /* ViewController.m in Sources */,
+				848B54F924D9663100AC3961 /* XtayTabBar.m in Sources */,
 				848B54D224D964D200AC3961 /* AppDelegate.m in Sources */,
+				848B54FC24D9664A00AC3961 /* XtayToolView.m in Sources */,
+				848B54F324D9655700AC3961 /* AddViewController.m in Sources */,
+				848B54F624D9662000AC3961 /* XtayTabBarController.m in Sources */,
+				848B54F024D9655000AC3961 /* MineViewController.m in Sources */,
 				848B54E324D964D500AC3961 /* main.m in Sources */,
-				848B54D524D964D200AC3961 /* SceneDelegate.m in Sources */,
+				848B54ED24D9654A00AC3961 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,14 +362,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "${SRCROOT}/XtayCustomTabBarController/PrefixHeader.pch";
 				INFOPLIST_FILE = XtayCustomTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.XtayCustomTabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,14 +380,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "${SRCROOT}/XtayCustomTabBarController/PrefixHeader.pch";
 				INFOPLIST_FILE = XtayCustomTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.XtayCustomTabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
