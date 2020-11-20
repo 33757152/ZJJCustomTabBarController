@@ -27,6 +27,8 @@
         self.shadowImage = [UIImage new];
         self.backgroundImage = [UIImage new];
         self.backgroundColor = XTAY_RGB(248, 247, 248);
+        self.tintColor = XTAY_TABBAR_TITLE_SELECTED_COLOR;
+        self.unselectedItemTintColor = XTAY_TABBAR_TITLE_NORMAL_COLOR;
     }
     return self;
 }
@@ -63,10 +65,10 @@
     CGFloat itemWidth = XTAY_SCREEN_W/tempMArr.count;
     for (NSInteger i = 0; i<tempMArr.count; i++) {
         UIView *subView = tempMArr[i];
-        subView.frame = CGRectMake(itemWidth*(i%tempMArr.count), 0, itemWidth, self.bounds.size.height);
+        subView.frame = CGRectMake(itemWidth*(i%tempMArr.count), 0, itemWidth, 48);
     }
-    _centerImageView.frame = CGRectMake((_centerView.bounds.size.width-_centerView.bounds.size.height)/2, -20, _centerView.bounds.size.height, _centerView.bounds.size.height);
-    _centerLabel.frame = CGRectMake(0, _centerView.bounds.size.height-20, _centerView.bounds.size.width, 20);
+    _centerImageView.frame = CGRectMake((_centerView.bounds.size.width-40)/2, -15, 40, 40);
+    _centerLabel.frame = CGRectMake(0, CGRectGetMaxY(_centerImageView.frame)+3, _centerView.bounds.size.width, 20);
 }
 
 - (void)centerViewItemClick:(UITapGestureRecognizer *)gesture {

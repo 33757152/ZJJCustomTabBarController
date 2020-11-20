@@ -38,8 +38,8 @@
     nav.tabBarItem.image = [[UIImage imageNamed:normalImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     nav.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     // 设置未选中以及选中状态的字体颜色
-    [nav.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:XTAY_TABBAR_TITLE_NORMAL_COLOR, NSFontAttributeName:XTAY_TABBAR_TITLE_FONT} forState:UIControlStateNormal];
-    [nav.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:XTAY_TABBAR_TITLE_SELECTED_COLOR, NSFontAttributeName:XTAY_TABBAR_TITLE_FONT} forState:UIControlStateSelected];
+    [nav.tabBarItem setTitleTextAttributes:@{NSFontAttributeName:XTAY_TABBAR_TITLE_FONT} forState:UIControlStateNormal];
+    [nav.tabBarItem setTitleTextAttributes:@{NSFontAttributeName:XTAY_TABBAR_TITLE_FONT} forState:UIControlStateSelected];
     // 导航栏颜色
     nav.navigationBar.barTintColor = XTAY_MAIN_COLOR;
     // 标题颜色

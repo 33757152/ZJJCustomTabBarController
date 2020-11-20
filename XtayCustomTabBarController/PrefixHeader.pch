@@ -39,10 +39,10 @@
 #define XTAY_MAIN_WINDOW             [[UIApplication sharedApplication] delegate].window
 
 /// 工具栏未选中字体颜色
-#define XTAY_TABBAR_TITLE_NORMAL_COLOR        [UIColor lightGrayColor]
+#define XTAY_TABBAR_TITLE_NORMAL_COLOR        [UIColor grayColor]
 
 /// 工具栏选中字体颜色
-#define XTAY_TABBAR_TITLE_SELECTED_COLOR      [UIColor blueColor]
+#define XTAY_TABBAR_TITLE_SELECTED_COLOR      [UIColor redColor]
 
 /// 工具栏字体大小
 #define XTAY_TABBAR_TITLE_FONT                XTAY_FONT_WEIGHT(12, 0)
